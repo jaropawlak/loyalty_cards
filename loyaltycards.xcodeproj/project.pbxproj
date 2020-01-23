@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF77E5CC23D56B6F003A0B5E /* ThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF77E5CB23D56B6F003A0B5E /* ThumbnailCell.swift */; };
 		EF87F8C023D347CD00C83B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF87F8BF23D347CD00C83B49 /* AppDelegate.swift */; };
 		EF87F8C223D347CD00C83B49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF87F8C123D347CD00C83B49 /* SceneDelegate.swift */; };
-		EF87F8C423D347CD00C83B49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF87F8C323D347CD00C83B49 /* ViewController.swift */; };
+		EF87F8C423D347CD00C83B49 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF87F8C323D347CD00C83B49 /* DetailViewController.swift */; };
 		EF87F8C723D347CD00C83B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF87F8C523D347CD00C83B49 /* Main.storyboard */; };
 		EF87F8CA23D347CD00C83B49 /* loyaltycards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF87F8C823D347CD00C83B49 /* loyaltycards.xcdatamodeld */; };
 		EF87F8CC23D347D000C83B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF87F8CB23D347D000C83B49 /* Assets.xcassets */; };
 		EF87F8CF23D347D000C83B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF87F8CD23D347D000C83B49 /* LaunchScreen.storyboard */; };
 		EF87F8DA23D347D100C83B49 /* loyaltycardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF87F8D923D347D100C83B49 /* loyaltycardsTests.swift */; };
 		EF87F8E523D347D100C83B49 /* loyaltycardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF87F8E423D347D100C83B49 /* loyaltycardsUITests.swift */; };
+		EF87F8F323D348D200C83B49 /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF87F8F223D348D200C83B49 /* MainCollectionViewController.swift */; };
+		EF87F8F523D354F200C83B49 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF87F8F423D354F200C83B49 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF77E5CB23D56B6F003A0B5E /* ThumbnailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailCell.swift; sourceTree = "<group>"; };
 		EF87F8BC23D347CD00C83B49 /* loyaltycards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loyaltycards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF87F8BF23D347CD00C83B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF87F8C123D347CD00C83B49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EF87F8C323D347CD00C83B49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF87F8C323D347CD00C83B49 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		EF87F8C623D347CD00C83B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF87F8C923D347CD00C83B49 /* loyaltycards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = loyaltycards.xcdatamodel; sourceTree = "<group>"; };
 		EF87F8CB23D347D000C83B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		EF87F8E023D347D100C83B49 /* loyaltycardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loyaltycardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF87F8E423D347D100C83B49 /* loyaltycardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loyaltycardsUITests.swift; sourceTree = "<group>"; };
 		EF87F8E623D347D100C83B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF87F8F223D348D200C83B49 /* MainCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
+		EF87F8F423D354F200C83B49 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF77E5CA23D56B4F003A0B5E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF77E5CB23D56B6F003A0B5E /* ThumbnailCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		EF87F8B323D347CD00C83B49 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +115,17 @@
 		EF87F8BE23D347CD00C83B49 /* loyaltycards */ = {
 			isa = PBXGroup;
 			children = (
+				EF77E5CA23D56B4F003A0B5E /* Cells */,
 				EF87F8BF23D347CD00C83B49 /* AppDelegate.swift */,
 				EF87F8C123D347CD00C83B49 /* SceneDelegate.swift */,
-				EF87F8C323D347CD00C83B49 /* ViewController.swift */,
+				EF87F8C323D347CD00C83B49 /* DetailViewController.swift */,
 				EF87F8C523D347CD00C83B49 /* Main.storyboard */,
 				EF87F8CB23D347D000C83B49 /* Assets.xcassets */,
 				EF87F8CD23D347D000C83B49 /* LaunchScreen.storyboard */,
 				EF87F8D023D347D100C83B49 /* Info.plist */,
 				EF87F8C823D347CD00C83B49 /* loyaltycards.xcdatamodeld */,
+				EF87F8F223D348D200C83B49 /* MainCollectionViewController.swift */,
+				EF87F8F423D354F200C83B49 /* DataManager.swift */,
 			);
 			path = loyaltycards;
 			sourceTree = "<group>";
@@ -263,7 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF87F8CA23D347CD00C83B49 /* loyaltycards.xcdatamodeld in Sources */,
-				EF87F8C423D347CD00C83B49 /* ViewController.swift in Sources */,
+				EF87F8F523D354F200C83B49 /* DataManager.swift in Sources */,
+				EF77E5CC23D56B6F003A0B5E /* ThumbnailCell.swift in Sources */,
+				EF87F8F323D348D200C83B49 /* MainCollectionViewController.swift in Sources */,
+				EF87F8C423D347CD00C83B49 /* DetailViewController.swift in Sources */,
 				EF87F8C023D347CD00C83B49 /* AppDelegate.swift in Sources */,
 				EF87F8C223D347CD00C83B49 /* SceneDelegate.swift in Sources */,
 			);
@@ -441,6 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M5KM7QX4X7;
 				INFOPLIST_FILE = loyaltycards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +480,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M5KM7QX4X7;
 				INFOPLIST_FILE = loyaltycards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
