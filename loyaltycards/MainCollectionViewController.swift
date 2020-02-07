@@ -40,14 +40,14 @@ class MainCollectionViewController : UICollectionViewController, UIImagePickerCo
         }
     }
     @IBAction func addItem(_ sender: Any) {
-        let alert = UIAlertController(title: "Add item", message: "Select source", preferredStyle: .actionSheet)
-        let camera = UIAlertAction(title: "Camera", style: .default) { action in
+        let alert = UIAlertController(title: "Dodaj kartę", message: "Wybierz Źródło", preferredStyle: .actionSheet)
+        let camera = UIAlertAction(title: "Aparat", style: .default) { action in
             self.selectImageFrom(.camera)
         }
-        let library = UIAlertAction(title: "Library", style: .default) { action in
+        let library = UIAlertAction(title: "Biblioteka", style: .default) { action in
             self.selectImageFrom(.photoLibrary)
         }
-        let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        let cancel = UIAlertAction(title: "Anuluj", style: .cancel, handler: nil)
         
         alert.addAction(camera)
         alert.addAction(library)
@@ -77,5 +77,25 @@ class MainCollectionViewController : UICollectionViewController, UIImagePickerCo
         data.addNewImage(selectedImage)
         items = data.getFileNames()
         self.collectionView.reloadData()
+    }
+    @IBAction func itemsAction(_ sender: Any) {
+        let alert = UIAlertController(title: "Więcej", message: "Chcesz więcej?", preferredStyle: .actionSheet)
+        let moreApps = UIAlertAction(title: "Inne apki", style: .default) { action in
+            UIApplication.shared.open(URL(string: "itms-apps://apps.apple.com/developer/id597872981")!, options: [:])
+        }
+        let github = UIAlertAction(title: "Ten projekt na githubie", style: .default) { action in
+          UIApplication.shared.open( URL(string: "https://github.com/jaropawlak/loyalty_cards")!, options: [:])
+        }
+        let twitter = UIAlertAction(title: "Kontakt ze mną", style: .default) { action in
+           UIApplication.shared.open( URL(string: "https://twitter.com/jaroslawp")!, options: [:])
+        }
+        let cancel = UIAlertAction(title: "Eeeee nie chcę", style: .cancel, handler: nil)
+      
+        alert.addAction(moreApps)
+        alert.addAction(github)
+        alert.addAction(twitter)
+        alert.addAction(cancel)
+              
+        present(alert, animated: true)
     }
 }

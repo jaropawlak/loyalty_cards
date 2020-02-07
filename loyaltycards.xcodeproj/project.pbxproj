@@ -40,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		EF77E5CB23D56B6F003A0B5E /* ThumbnailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailCell.swift; sourceTree = "<group>"; };
-		EF87F8BC23D347CD00C83B49 /* loyaltycards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loyaltycards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF87F8BC23D347CD00C83B49 /* Lojalki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lojalki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF87F8BF23D347CD00C83B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF87F8C123D347CD00C83B49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EF87F8C323D347CD00C83B49 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 		EF87F8BD23D347CD00C83B49 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF87F8BC23D347CD00C83B49 /* loyaltycards.app */,
+				EF87F8BC23D347CD00C83B49 /* Lojalki.app */,
 				EF87F8D523D347D100C83B49 /* loyaltycardsTests.xctest */,
 				EF87F8E023D347D100C83B49 /* loyaltycardsUITests.xctest */,
 			);
@@ -165,7 +165,7 @@
 			);
 			name = loyaltycards;
 			productName = loyaltycards;
-			productReference = EF87F8BC23D347CD00C83B49 /* loyaltycards.app */;
+			productReference = EF87F8BC23D347CD00C83B49 /* Lojalki.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EF87F8D423D347D100C83B49 /* loyaltycardsTests */ = {
@@ -467,7 +467,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = pl.majatech..loyaltycards;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Lojalki;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -486,7 +486,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = pl.majatech..loyaltycards;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Lojalki;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
