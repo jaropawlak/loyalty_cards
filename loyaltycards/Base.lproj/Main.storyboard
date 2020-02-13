@@ -29,7 +29,7 @@
         <!--Main Collection View Controller-->
         <scene sceneID="cGi-4i-qOa">
             <objects>
-                <collectionViewController id="YC7-bq-v9e" customClass="MainCollectionViewController" customModule="loyaltycards" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="YC7-bq-v9e" customClass="MainCollectionViewController" customModule="Lojalki" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="8c5-M7-qRO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,7 +45,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="thumbnail" id="Wgn-GX-lEb" customClass="ThumbnailCell" customModule="loyaltycards" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="thumbnail" id="Wgn-GX-lEb" customClass="ThumbnailCell" customModule="Lojalki" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="82" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Oxo-Y2-OZV">
@@ -99,7 +99,7 @@
         <!--Detail View Controller-->
         <scene sceneID="HUB-1J-vnY">
             <objects>
-                <viewController id="Tvd-Vs-MsK" customClass="DetailViewController" customModule="loyaltycards" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Tvd-Vs-MsK" customClass="DetailViewController" customModule="Lojalki" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="exy-Ep-Tx8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
