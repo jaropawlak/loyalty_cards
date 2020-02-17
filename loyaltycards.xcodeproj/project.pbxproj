@@ -459,7 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = M5KM7QX4X7;
 				INFOPLIST_FILE = loyaltycards/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
@@ -470,7 +470,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pl.majatech.loyaltycards;
 				PRODUCT_NAME = Lojalki;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -479,7 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = M5KM7QX4X7;
 				INFOPLIST_FILE = loyaltycards/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
@@ -490,7 +490,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pl.majatech.loyaltycards;
 				PRODUCT_NAME = Lojalki;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
